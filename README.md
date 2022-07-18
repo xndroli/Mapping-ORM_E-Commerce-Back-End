@@ -84,15 +84,9 @@ Enter PW when promted
 
 ## Features
 
-I’ll use the MySQL2 (Links to an external site.) and Sequelize (Links to an external site.) packages to connect your Express.js API to a MySQL database and the dotenv package (Links to an external site.) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
+I’ll use the [MySQL2] (https://www.npmjs.com/package/mysql2) and [Sequelize] (https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv package] (https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
 I'll use the schema.sql file in the db folder to create a database using MySQL shell commands. I'll use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
-**Important**:
-
-You’ll need to use the MySQL2 (Links to an external site.) and Sequelize (Links to an external site.) packages to connect your Express.js API to a MySQL database and the dotenv package (Links to an external site.) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
-Use the schema.sql file in the db folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
 **Database Models**:
 
