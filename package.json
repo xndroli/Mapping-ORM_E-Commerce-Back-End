@@ -3,5 +3,23 @@
     "dotenv": "^16.0.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
-  }
+  },
+  "name": "mapping-orm_e-commerce-back-end",
+  "description": "<p align=\"center\">\r     <img src=\"https://img.shields.io/badge/Javascript-yellow\" />\r     <img src=\"https://img.shields.io/badge/express-orange\" />\r     <img src=\"https://img.shields.io/badge/Sequelize-blue\"  />\r     <img src=\"https://img.shields.io/badge/mySQL-blue\"  />\r     <img src=\"https://img.shields.io/badge/dotenv-green\" />\r </p>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xndroli/Mapping-ORM_E-Commerce-Back-End.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xndroli/Mapping-ORM_E-Commerce-Back-End/issues"
+  },
+  "homepage": "https://github.com/xndroli/Mapping-ORM_E-Commerce-Back-End#readme"
 }

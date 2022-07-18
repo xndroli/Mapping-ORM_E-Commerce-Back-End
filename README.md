@@ -1,5 +1,15 @@
 # E-commerce Back End Starter Code
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/express-orange" />
+    <img src="https://img.shields.io/badge/Sequelize-blue"  />
+    <img src="https://img.shields.io/badge/mySQL-blue"  />
+    <img src="https://img.shields.io/badge/dotenv-green" />
+</p>
+
+## Description
+
 Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
 This week I will build the back end for an e-commerce site. I’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
@@ -8,15 +18,17 @@ Because this application won’t be deployed, I’ll also create a walkthrough v
 
 ## Table of Contents
 
+- [Description](#Description)
 - [User-Story](#User-Story)
 - [Acceptance-Criteria](#Acceptance-Criteria)
 - [Demo](#Demo)
+- [Installation](#Installation)
+- [Usage](#Usage)
 - [Features](#Features)
-- [Bonus](#Bonus)
 
 ## User Story
 
-```md
+```
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
@@ -24,7 +36,7 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Acceptance Criteria
 
-```md
+```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 THEN I am able to connect to a database using Sequelize
@@ -43,6 +55,32 @@ THEN I am able to successfully create, update, and delete data in my database
 The following video shows an example of the application being used from the command line:
 
 [![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+
+## Installation
+
+`npm init`
+
+`npm install mysql2`
+
+`npm install sequelize`
+
+`npm install dotenv`
+
+## Usage
+
+Run the following command at the root of your project and answer the prompted questions:
+
+`mysql -u root -p`
+
+Enter PW when promted
+
+`source db/schema.sql`
+
+`quit`
+
+`npm run seed`
+
+`npm start`
 
 ## Features
 
@@ -89,20 +127,6 @@ As the image illustrates, the schema contains the following three tables:
   - `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
 
 There is a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class has been included to help organize these. I have also included a `seeds.sql` file to pre-populate the database, making the development of individual features much easier.
-
-## Bonus
-
-Try to add some additional functionality to your application, such as the ability to do the following:
-
-- Update employee managers.
-
-- View employees by manager.
-
-- View employees by department.
-
-- Delete departments, roles, and employees.
-
-- View the total utilized budget of a department&mdash;in other words, the combined salaries of all employees in that department.
 
 ---
 
