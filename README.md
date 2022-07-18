@@ -54,7 +54,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 The following video shows an example of the application being used from the command line:
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![A walkthrough video that demonstrates the functionality of the e-commerce back end showing all of the technical acceptance criteria being met](./Assets/)](https://2u-20.wistia.com/medias/2lnle7xnpk)
 
 ## Installation
 
